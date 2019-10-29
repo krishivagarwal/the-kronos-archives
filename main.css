@@ -1,0 +1,67 @@
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+}
+
+.header {
+  font-size: 4em;
+  padding: 0.5em 0em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  border-bottom: 2px solid #AAA;
+}
+
+.article {
+  margin: 0em 2em 5em 2em;
+  padding: 1em;
+}
+
+.article:not(:last-of-type) {
+  border-bottom: 2px solid #AAA;
+}
+
+.date {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3em;
+}
+
+.subheading {
+  font-size: 1.3em;
+  font-style: italic;
+  color: #777;
+}
+
+.text {
+  line-height: 1.5em;
+  padding: 1em;
+}
+
+.quote {
+  font-family: 'Shadows Into Light Two', cursive;
+  border-left: 2px solid #999;
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  margin: 0.5em 0em;
+}
+
+.code {
+  font-family: 'Inconsolata', monospace;
+  white-space: nowrap;
+  overflow-x: auto;
+  max-width: 100%;
+  background-color: #CCC;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.5em 0em;
+}
+
+@media only screen and (max-width: 768px) {
+  .article {
+    margin: 0em 1em 5em 1em;
+    padding: 0em;
+  }
+}
